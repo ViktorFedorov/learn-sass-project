@@ -1,0 +1,18 @@
+@import url(../vendor/fonts.css);
+@import url(../vendor/normalize.css);
+
+@import 'variables';
+
+@import '../blocks/page/page';
+
+@import '../blocks/container/container';
+@import '../blocks/container/_bg-color/container_bg-color_funny';
+@import '../blocks/container/_bg-color/container_bg-color_sunny';
+
+@import '../blocks/header/header';
+@import '../blocks/header/__logo/header__logo';
+
+@import '../blocks/menu/menu';
+@import '../blocks/menu/__list/menu__list';
+@import '../blocks/menu/__item/menu__item';
+@import '../blocks/menu/__link/menu__link';
