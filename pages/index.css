@@ -1,7 +1,19 @@
 @import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
 .page {
+  font-family: Roboto, Arial, sans-serif;
   margin: 0;
+}
+
+.rotation {
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: -webkit-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
+  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+}
+.rotation:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .container {
@@ -63,4 +75,106 @@
 .menu__link {
   color: #fbfbfb;
   text-decoration: none;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.section__title {
+  margin: 0;
+}
+
+.section__about {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.section__title_size_medium {
+  font-size: 100px;
+  line-height: 110px;
+  font-weight: 400;
+}
+
+.section__title_size_small {
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 400;
+  max-width: 403px;
+}
+
+.section__title_padding_small {
+  padding-bottom: 47px;
+}
+
+.section__paragraph-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 400px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 20px;
+  padding-bottom: 147px;
+}
+
+.section__paragraph {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  max-width: 470px;
+  margin: 0;
+}
+
+.section__paragraph_paddings_large {
+  padding: 0 0 106px 5px;
+}
+
+.section__paragraph_font_bold {
+  font-weight: 700;
+}
+
+.section__link {
+  text-decoration: none;
+  background: #fff;
+  color: #000;
+  display: inline-block;
+  padding: 8px 67px;
+  border: 2px solid #000;
+  border-radius: 9999px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.section__image {
+  max-width: 642px;
 }

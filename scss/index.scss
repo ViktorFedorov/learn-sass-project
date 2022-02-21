@@ -2,8 +2,11 @@
 @import url(../vendor/normalize.css);
 
 @import 'variables';
+@import 'mixins';
 
 @import '../blocks/page/page';
+
+@import '../blocks/rotation/rotation';
 
 @import '../blocks/container/container';
 @import '../blocks/container/_bg-color/container_bg-color_funny';
@@ -16,3 +19,18 @@
 @import '../blocks/menu/__list/menu__list';
 @import '../blocks/menu/__item/menu__item';
 @import '../blocks/menu/__link/menu__link';
+
+@import '../blocks/section/section';
+@import '../blocks/section/__description/section__description';
+@import '../blocks/section/__title/section__title';
+@import '../blocks/section/__about/section__about';
+@import '../blocks/section/__title/_size/section__title_size_large';
+@import '../blocks/section/__title/_size/section__title_size_medium';
+@import '../blocks/section/__title/_size/section__title_size_small';
+@import '../blocks/section/__title/_padding/section__title_padding_small';
+@import '../blocks/section/__paragraph-container/section__paragraph-container';
+@import '../blocks/section/__paragraph/section__paragraph';
+@import '../blocks/section/__paragraph/_paddings/section__paragraph_paddings_large';
+@import '../blocks/section/__paragraph/_font/section__paragraph_font_bold';
+@import '../blocks/section/__link/section__link';
+@import '../blocks/section/__image/section__image';
