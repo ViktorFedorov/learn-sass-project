@@ -137,7 +137,7 @@
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
-  max-width: 403px;
+  max-width: 527px;
 }
 
 .section__title_padding_small {
@@ -146,6 +146,11 @@
 
 .section__title_padding_large {
   padding-bottom: 305px;
+}
+
+.section__title_padding_both {
+  padding-top: 50px;
+  padding-bottom: 105px;
 }
 
 .section__paragraph-container {
@@ -165,8 +170,16 @@
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
-  max-width: 470px;
   margin: 0;
+}
+
+.section__paragraph_width_medium {
+  max-width: 470px;
+}
+
+.section__paragraph_width_small {
+  max-width: 380px;
+  padding-top: 340px;
 }
 
 .section__paragraph_paddings_large {
