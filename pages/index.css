@@ -32,6 +32,11 @@
   background: #ffce00;
 }
 
+.container_bg-color_darkly {
+  background: #000;
+  color: #fff;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,6 +121,12 @@
   margin: 0;
 }
 
+.section__title_size_large {
+  font-size: 122px;
+  line-height: 122px;
+  font-weight: 400;
+}
+
 .section__title_size_medium {
   font-size: 100px;
   line-height: 110px;
@@ -131,6 +142,10 @@
 
 .section__title_padding_small {
   padding-bottom: 47px;
+}
+
+.section__title_padding_large {
+  padding-bottom: 305px;
 }
 
 .section__paragraph-container {
@@ -191,6 +206,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-column-gap: 56px;
+     -moz-column-gap: 56px;
+          column-gap: 56px;
   list-style: none;
   margin: 0;
   padding-left: 0;
