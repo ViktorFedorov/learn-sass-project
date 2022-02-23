@@ -16,6 +16,10 @@
           transform: rotate(360deg);
 }
 
+.hover-effect:hover {
+  font-weight: 500;
+}
+
 .container {
   max-width: 1440px;
   -webkit-box-sizing: border-box;
@@ -58,7 +62,7 @@
 }
 
 .menu {
-  font-family: Inter, Arial, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -195,12 +199,14 @@
   background: #fff;
   color: #000;
   display: inline-block;
-  padding: 8px 67px;
+  padding: 8px 0;
+  width: 228px;
   border: 2px solid #000;
   border-radius: 9999px;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
+  text-align: center;
 }
 
 .section__image {
@@ -334,6 +340,8 @@
   border-radius: 0 8px 8px 0;
   padding: 0 55px 0 55px;
   cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .footer {
