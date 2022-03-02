@@ -1,0 +1,9 @@
+.findorders {
+  display: grid;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  grid-template-areas: "about ."
+                        "title ."
+                        "photo paragraph"
+                        "photo link";
+}

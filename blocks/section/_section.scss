@@ -1,6 +1,8 @@
 .section {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
   padding-top: 50px;
   padding-bottom: 50px;
+  grid-template-areas: "title photo"
+                        "paragraph photo"
+                        "button photo";
 }

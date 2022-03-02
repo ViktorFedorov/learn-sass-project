@@ -1,0 +1,6 @@
+.composition__about {
+  @include main-fontsize;
+  text-transform: uppercase;
+  margin: 0;
+  grid-area: about;
+}

@@ -1,0 +1,9 @@
+.composition {
+  display: grid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas:  "title-container photo"
+                        "paragraph-container photo"
+                        "link photo";
+}

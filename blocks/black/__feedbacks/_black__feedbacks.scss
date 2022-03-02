@@ -1,0 +1,7 @@
+.black__feedbacks {
+  @include main-fontsize;
+  text-transform: uppercase;
+  margin: 0;
+  align-self: end;
+  grid-area: feedbacks;
+}

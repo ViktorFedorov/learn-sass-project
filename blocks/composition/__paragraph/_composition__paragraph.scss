@@ -1,0 +1,12 @@
+.composition__paragraph {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  margin: 0;
+  max-width: 400px;
+  grid-area: paragraph;
+}
+
+.composition__paragraph:first-child {
+  padding-bottom: 20px;
+}

@@ -1,4 +1,4 @@
-.section__link {
+.findorders__link {
   text-decoration: none;
   background: #fff;
   color: #000;
@@ -11,6 +11,6 @@
   line-height: 28px;
   font-weight: 400;
   text-align: center;
-  grid-area: button;
   align-self: end;
+  grid-area: link;
 }
