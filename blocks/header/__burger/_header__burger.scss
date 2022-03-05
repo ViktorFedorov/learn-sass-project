@@ -1,0 +1,11 @@
+.header__burger {
+  cursor: pointer;
+  display: none;
+  width: 32px;
+  height: 32px;
+  background: url($path-to-menu-image) no-repeat center center;
+
+  @include portrait-tablet {
+    display: block;
+  }
+}

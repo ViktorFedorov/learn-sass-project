@@ -1,3 +1,33 @@
 .section__title {
   margin: 0;
+  font-size: 100px;
+  line-height: 110px;
+  font-weight: 400;
+  grid-area: title;
+
+  @include desktop {
+    font-size: 80px;
+  }
+
+  @include small-desktop {
+    font-size: 65px;
+  }
+
+  @include medium-tablet {
+    font-size: 45px;
+  }
+
+  @include medium-tablet {
+    font-size: 35px;
+  }
+
+  @include portrait-tablet {
+    font-size: 100px;
+    padding-bottom: 60px;
+  }
+
+  @include large-phone {
+    font-size: 47px;
+    line-height: 56px;
+  }
 }

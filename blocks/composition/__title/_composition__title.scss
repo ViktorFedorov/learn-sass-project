@@ -1,0 +1,25 @@
+.composition__title {
+  margin: 0;
+  font-size: 64px;
+  padding-top: 50px;
+  line-height: 64px;
+  font-weight: 400;
+  max-width: 527px;
+  grid-area: title;
+
+  @include medium-tablet {
+    font-size: 45px;
+  }
+
+  @include portrait-tablet {
+    font-size: 64px;
+    padding-bottom: 60px;
+  }
+
+  @include phone {
+    font-size: 30px;
+    line-height: 38px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+}

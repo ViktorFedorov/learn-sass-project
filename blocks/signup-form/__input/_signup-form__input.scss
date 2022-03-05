@@ -13,4 +13,13 @@
   &:focus {
     outline: none;
   }
+
+  @include large-phone {
+    width: 175px;
+  }
+
+  @include phone {
+    width: 175px;
+    font-size: 11px;
+  }
 }

@@ -1,4 +1,13 @@
 .feedbacks {
   display: flex;
   column-gap: 172px;
+
+  @include portrait-tablet {
+    display: block;
+    padding-top: 80px;
+  }
+
+  @include phone {
+    padding-top: 0;
+  }
 }

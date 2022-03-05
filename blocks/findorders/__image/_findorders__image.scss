@@ -1,0 +1,28 @@
+.findorders__image {
+  align-self: end;
+  grid-area: photo;
+  padding-right: 315px;
+
+  @include desktop {
+    padding-right: 200px;
+  }
+
+  @include medium-desktop {
+    width: 550px;
+  }
+
+  @include medium-desktop {
+    width: 480px;
+    padding-right: 100px;
+  }
+
+  @include medium-tablet {
+    width: 400px;
+    padding-right: 60px;
+  }
+
+  @include portrait-tablet {
+    width: 100%;
+    padding-right: 0;
+  }
+}

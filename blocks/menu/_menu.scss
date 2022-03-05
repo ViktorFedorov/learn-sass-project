@@ -3,4 +3,8 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+
+  @include portrait-tablet {
+    display: none;
+  }
 }
