@@ -13,4 +13,10 @@
   text-align: center;
   grid-area: button;
   align-self: end;
+
+  @include phone {
+    font-size: 14px;
+    line-height: 18px;
+    width: 169px;
+  }
 }

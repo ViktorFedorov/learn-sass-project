@@ -6,4 +6,19 @@
   grid-template-areas:  "title-container photo"
                         "paragraph-container photo"
                         "link photo";
+
+  @include portrait-tablet {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    grid-template-columns: 1fr;
+    grid-template-areas:  "title-container"
+                        "photo"
+                        "paragraph-container"
+                        "link";
+  }
+
+  @include phone {
+    padding-top: 20px;
+    padding-bottom: 45px;
+  }
 }

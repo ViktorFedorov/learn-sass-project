@@ -2,4 +2,10 @@
   @include main-fontsize;
   margin: 0;
   padding-bottom: 10px;
+
+  @include phone {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 6px;
+  }
 }

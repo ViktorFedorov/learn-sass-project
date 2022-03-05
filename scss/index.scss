@@ -2,6 +2,7 @@
 @import url(../vendor/normalize.css);
 
 @import 'variables';
+@import 'media';
 @import 'mixins';
 
 @import '../blocks/page/page';
@@ -16,6 +17,8 @@
 
 @import '../blocks/header/header';
 @import '../blocks/header/__logo/header__logo';
+@import '../blocks/header/__burger/header__burger';
+@import '../blocks/header/__close/header__close';
 
 @import '../blocks/menu/menu';
 @import '../blocks/menu/__list/menu__list';

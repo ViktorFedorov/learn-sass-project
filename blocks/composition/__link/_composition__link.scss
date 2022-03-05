@@ -13,4 +13,15 @@
   text-align: center;
   align-self: end;
   grid-area: link;
+
+  @include portrait-tablet {
+    margin-top: 60px;
+  }
+
+  @include phone {
+    margin-top: 30px;
+    width: 169px;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }

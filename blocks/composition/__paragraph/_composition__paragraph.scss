@@ -5,6 +5,11 @@
   margin: 0;
   max-width: 400px;
   grid-area: paragraph;
+
+  @include phone {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 
 .composition__paragraph:first-child {

@@ -3,4 +3,14 @@
   column-gap: 50px;
   padding-top: 50px;
   padding-bottom: 36px;
+
+  @include portrait-tablet {
+    column-gap: 40px;
+    padding-top: 40px;
+  }
+
+  @include phone {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }

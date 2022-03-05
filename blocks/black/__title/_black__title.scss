@@ -5,4 +5,26 @@
   font-weight: 400;
   padding-bottom: 280px;
   grid-area: title;
+
+  @include desktop {
+    font-size: 80px;
+  }
+
+  @include large-tablet {
+    font-size: 70px;
+  }
+
+  @include medium-tablet {
+    font-size: 50px;
+  }
+
+  @include portrait-tablet {
+    font-size: 122px;
+    padding-bottom: 60px;
+  }
+
+  @include large-phone {
+    font-size: 48px;
+    line-height: 56px;
+  }
 }

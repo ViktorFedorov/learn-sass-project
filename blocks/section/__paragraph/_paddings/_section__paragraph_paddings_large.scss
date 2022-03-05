@@ -1,3 +1,7 @@
 .section__paragraph_paddings_large {
   padding: 0 0 54px 5px;
+
+  @include phone {
+    padding-bottom: 30px;
+  }
 }

@@ -6,4 +6,15 @@
   margin: 0;
   max-width: 400px;
   grid-area: paragraph;
+
+  @include portrait-tablet {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @include phone {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 0;
+  }
 }

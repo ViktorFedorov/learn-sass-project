@@ -4,4 +4,9 @@
   margin: 0;
   align-self: end;
   grid-area: feedbacks;
+
+  @include phone {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
