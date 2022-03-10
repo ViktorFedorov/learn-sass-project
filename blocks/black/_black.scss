@@ -15,7 +15,7 @@
                         "feedbacks";
   }
 
-  @include portrait-tablet {
+  @include phone {
     padding-top: 20px;
     padding-bottom: 20px;
   }

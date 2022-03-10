@@ -1,4 +1,5 @@
 .composition__image {
+  max-width: 642px;
   grid-area: photo;
 
   @include medium-desktop {
@@ -14,6 +15,7 @@
   }
 
   @include portrait-tablet {
+    max-width: 688px;
     width: 100%;
     padding-bottom: 60px;
   }
