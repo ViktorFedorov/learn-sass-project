@@ -1,0 +1,59 @@
+@mixin main-fontsize {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+@mixin desktop {
+  @media screen and (max-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin medium-desktop {
+  @media screen and (max-width: $medium-desktop) {
+    @content;
+  }
+}
+
+@mixin small-desktop {
+  @media screen and (max-width: $small-desktop) {
+    @content;
+  }
+}
+
+@mixin large-tablet {
+  @media screen and (max-width: $large-tablet) {
+    @content;
+  }
+}
+
+@mixin medium-tablet {
+  @media screen and (max-width: $medium-tablet) {
+    @content;
+  }
+}
+
+@mixin small-tablet {
+  @media screen and (max-width: $small-tablet) {
+    @content;
+  }
+}
+
+@mixin portrait-tablet {
+  @media screen and (max-width: $portrait-tablet) {
+    @content;
+  }
+}
+
+@mixin large-phone {
+  @media screen and (max-width: $large-phone) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media screen and (max-width: $phone) {
+    @content;
+  }
+}

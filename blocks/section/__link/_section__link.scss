@@ -1,0 +1,9 @@
+.section__link {
+  grid-area: button;
+
+  @include phone {
+    font-size: 14px;
+    line-height: 18px;
+    width: 169px;
+  }
+}

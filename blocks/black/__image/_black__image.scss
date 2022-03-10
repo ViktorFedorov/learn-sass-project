@@ -1,0 +1,25 @@
+.black__image {
+  grid-area: photo;
+
+  @include medium-desktop {
+    width: 500px;
+  }
+
+  @include medium-desktop {
+    width: 480px;
+  }
+
+  @include large-tablet {
+    width: 400px;
+  }
+
+  @include portrait-tablet {
+    width: 100%;
+    max-height: 656px;
+    padding-bottom: 60px;
+  }
+
+  @include phone {
+    max-height: 268px;
+  }
+}

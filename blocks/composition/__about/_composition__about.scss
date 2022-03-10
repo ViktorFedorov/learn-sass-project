@@ -1,0 +1,13 @@
+.composition__about {
+  @include main-fontsize;
+  text-transform: uppercase;
+  margin: 0;
+  grid-area: about;
+
+  @include phone {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    font-size: 14px;
+  }
+}

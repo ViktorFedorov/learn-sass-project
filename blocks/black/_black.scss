@@ -1,0 +1,22 @@
+.black {
+  display: grid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  grid-template-areas: "about photo"
+                        "title photo"
+                        "feedbacks photo";
+
+  @include portrait-tablet {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    grid-template-areas: "about"
+                        "title"
+                        "photo"
+                        "feedbacks";
+  }
+
+  @include phone {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

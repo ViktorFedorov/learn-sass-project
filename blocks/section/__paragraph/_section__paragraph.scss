@@ -1,0 +1,13 @@
+.section__paragraph {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin: 0;
+  grid-area: paragraph;
+
+  @include phone {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+

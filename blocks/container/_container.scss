@@ -1,0 +1,15 @@
+.container {
+  max-width: 1440px;
+  box-sizing: border-box;
+  padding: 0 50px;
+  margin: 0 auto;
+  z-index: 5;
+
+  @include small-desktop {
+    padding: 0 40px;
+  }
+
+  @include phone {
+    padding: 0 20px;
+  }
+}

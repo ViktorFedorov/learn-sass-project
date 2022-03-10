@@ -1,0 +1,9 @@
+.signup__arrow {
+  width: 129px;
+  padding-top: 30px;
+  background: url($path-to-arrow-image) no-repeat center 10px;
+
+  @include large-tablet {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+.tips__item {
+  @include main-fontsize;
+  max-width: 291px;
+
+  @include portrait-tablet {
+    max-width: 100%;
+    border-bottom: 1px solid #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  @include phone {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.tips__item:last-child {
+  border-bottom: none;
+}

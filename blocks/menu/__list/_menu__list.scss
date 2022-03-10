@@ -1,0 +1,25 @@
+.menu__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+  background: $background-color-primary;
+
+  @include portrait-tablet {
+    padding-left: 0;
+  }
+
+  @include large-phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 12px;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 83px;
+  }
+}

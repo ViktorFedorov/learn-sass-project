@@ -1,0 +1,14 @@
+.tips {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  @include portrait-tablet {
+    padding-top: 11px;
+    padding-bottom: 8px;
+  }
+
+  @include phone {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

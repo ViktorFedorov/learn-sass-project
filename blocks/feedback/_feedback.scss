@@ -1,0 +1,28 @@
+.feedback {
+  max-width: 526px;
+  padding-top: 130px;
+  padding-bottom: 60px;
+
+  @include portrait-tablet {
+    max-width: 100%;
+    border-bottom: 1px solid #fff;
+    padding-top: 60px;
+
+    &:last-child {
+      border-bottom: none;
+      padding-bottom: 40px;
+    }
+  }
+
+  @include phone {
+    font-size: 24px;
+    line-height: 26px;
+    padding-top: 36px;
+    padding-bottom: 30px;
+
+    &:last-child {
+      padding-bottom: 20px;
+    }
+  }
+}
+

@@ -1,0 +1,7 @@
+.menu__item {
+  @include large-phone {
+    &:last-child {
+      padding-bottom: 26px;
+    }
+  }
+}

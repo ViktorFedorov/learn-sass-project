@@ -1,0 +1,21 @@
+.feedback__text {
+  margin: 0;
+  font-size: 43px;
+  line-height: 43px;
+  font-weight: 400;
+  padding-bottom: 60px;
+
+  @include medium-tablet {
+    font-size: 30px;
+  }
+
+  @include portrait-tablet {
+    font-size: 43px;
+  }
+
+  @include phone {
+    font-size: 24px;
+    line-height: 26px;
+    padding-bottom: 30px;
+  }
+}

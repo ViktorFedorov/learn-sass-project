@@ -1,0 +1,12 @@
+.tips__list {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 56px;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+
+  @include portrait-tablet {
+    display: block;
+  }
+}

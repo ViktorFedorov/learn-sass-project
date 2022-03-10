@@ -1,0 +1,22 @@
+.section {
+  display: grid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  grid-template-areas: "title photo"
+                        "paragraph photo"
+                        "button photo";
+
+  @include portrait-tablet {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    grid-template-areas: "title"
+                        "photo"
+                        "paragraph"
+                        "button";
+  }
+
+  @include phone {
+    padding-top: 14px;
+    padding-bottom: 20px;
+  }
+}

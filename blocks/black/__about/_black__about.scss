@@ -1,0 +1,19 @@
+.black__about {
+  @include main-fontsize;
+  text-transform: uppercase;
+  margin: 0;
+  grid-area: about;
+
+  @include portrait-tablet {
+    padding-bottom: 40px;
+    padding-left: 7px;
+  }
+
+  @include phone {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #fff;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+}
